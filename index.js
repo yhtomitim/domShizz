@@ -1,20 +1,29 @@
 // Create 2 variables and use getElementsByTagName to select the h1 and img tags.
 // Log the variables to the console, observe the results.
 
-// let h1s = doc
+let h1Tag = document.querySelectorAll('h1');
+let imgTag = document.querySelectorAll('img');
+// console.log(h1Tag, imgTag);
+
 
 // Create a variable and use getElementById to select the img tag.
 // Log the variable to the console, observe the result.
 
+let theImgTag = document.getElementById('mainpicture');
+console.log(theImgTag);
 
 // Create a variable and use getElementsByClassName to select the li tag.
 // Log the variable to the console, observe the result.
+
+let anLiTag = document.getElementsByClassName('bearname')[0];
+console.log(anLiTag);
 
 
 // Create at least 3 variables and use querySelector to select the h1, img, and li tags.
 // Try grabbing by class and id and tag name.
 // Log the variables to the console, observe the results.
 
+let 
 
 // Create at least 3 variables and use querySelectorAll to select the h1, img, and li tags.
 // Try grabbing by class and id and tag name.
@@ -166,6 +175,8 @@ favoriteTag.addEventListener('click', function(event) {
   // what is event.target?
   event.target.style.color='orange';
  })
+
+
 
 // Attach a 'mouseover' event to the kiki <li>
 // Change the display property to 'none in the event handler function
